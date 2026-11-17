@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+node_modules/
+dist/
+.env.local
+.env.*.local
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ML Service cache
+.pytest_cache/
+.coverage
+ml-service/latest_sensor.json
+ml-service/latest_sensor.json*
+
+dataset/

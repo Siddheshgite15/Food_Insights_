@@ -1,0 +1,16 @@
+{
+  "name": "banana-food-insight",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Banana Food Insight Freshness and Shelf Life Prediction System",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "start": "cmd /c start_all.bat",
+    "start:all": "cmd /c start_all.bat",
+    "camera:test": "python ml-service/cnn/camera_test.py",
+    "cnn:webcam": "python ml-service/cnn/cnn_inference.py",
+    "build": "npm --prefix frontend run build"
+  }
+}
